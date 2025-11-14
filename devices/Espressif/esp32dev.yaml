@@ -1,6 +1,6 @@
 substitutions:
   name: esphome-web-aec6f4
-  friendly_name: echoear
+  friendly_name: mia
 
 ## Modular version Main v1.08 SINGLE FILE for Echoear 1.0
 ###################################################################
@@ -14,8 +14,8 @@ substitutions:
   rotate_display: "0"
 
   startup_sound: "Home_Connected" # (options are: available, Home_Connected, Home_Connected_Male, Computer_Ready)
-  clock_background_image: "tron" # (options are: clock, hacker, ha-girl, mission, starrysky, waves, tron)
-  imagemodel: "Gwen" # options are:
+#  clock_background_image: "tron" # (options are: clock, hacker, ha-girl, mission, starrysky, waves, tron)
+#  imagemodel: "Gwen" # options are:
 
 # Alita, Alfred, Astrobot, Buzz, Casita, Cybergirl, Dory, EVE, Eyes, Eyes2, GLaDOS, Girl1, Guy1, Guy2, Gwen, HA-character, ha-girl, Hacker, Harley,
 # Jarvis, Luffy, Mario, Max, Prime, Robochibi, Robocop, Robot, Robotgirl, Shaun
@@ -50,26 +50,9 @@ substitutions:
   font_glyphsets: "GF_Latin_Core"
   font_family: Figtree
 
-  allowed_characters: >-
-    !#%'()+,-./0123456789:;<>?@ABCDEFGHIJKLMNOPQRSTUVWYZ[]_abcdefghijklmnopqrstuvwxyz{|}°²³µ¿ÁÂÄÅÉÖÚßàáâãäåæçèéêëìíîðñòóôõöøùúûüýþāăąćčďĐđēėęěğĮįıļľŁłńňőřśšťũūůűųźŻżŽžơưșțΆΈΌΐΑΒΓΔΕΖΗΘΚΜΝΠΡΣΤΥΦάέήίαβγδεζηθικλμνξοπρςστυφχψωϊόύώАБВГДЕЖЗИКЛМНОПРСТУХЦЧШЪЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюяёђєіїјљњћאבגדהוזחטיכלםמןנסעפץצקרשת،ءآأإئابةتجحخدذرزسشصضطظعغفقكلمنهوىيٹپچڈکگںھہیےংকচতধনফবযরলশষস়ািু্చయలిెొ్ംഅആഇഈഉഎഓകഗങചജഞടഡണതദധനപഫബഭമയരറലളവശസഹാിീുൂെേൈ്ൺൻർൽൾაბგდევზთილმნოპრსტუფქყშჩცძჭხạảấầẩậắặẹẽếềểệỉịọỏốồổỗộớờởợụủứừửữựỳ—、一上不个中为主乾了些亮人任低佔何作供依侧係個側偵充光入全关冇冷几切到制前動區卧厅厨及口另右吊后吗启吸呀咗哪唔問啟嗎嘅嘛器圍在场執場外多大始安定客室家密寵对將小少左已帘常幫幾库度庫廊廚廳开式後恆感態成我戲戶户房所扇手打执把拔换掉控插摄整斯新明是景暗更最會有未本模機檯櫃欄次正氏水沒没洗活派温測源溫漏潮激濕灯為無煙照熱燈燥物狀玄现現瓦用發的盞目着睡私空窗立笛管節簾籬紅線红罐置聚聲脚腦腳臥色节著行衣解設調請謝警设调走路車车运連遊運過道邊部都量鎖锁門閂閉開關门闭除隱離電震霧面音頂題顏颜風风食餅餵가간감갔강개거게겨결경고공과관그금급기길깥꺼껐꼽나난내네놀누는능니다닫담대더데도동됐되된됨둡드든등디때떤뜨라래러렇렌려로료른를리림링마많명몇모무문물뭐바밝방배변보부불블빨뽑사산상색서설성세센션소쇼수스습시신실싱아안않알았애야어얼업없었에여연열옆오온완외왼요운움워원위으은을음의이인일임입있작잠장재전절정제져조족종주줄중줘지직진짐쪽차창천최추출충치침커컴켜켰쿠크키탁탄태탬터텔통트튼티파팬퍼폰표퓨플핑한함해했행혀현화활후휴힘，？
-  loading_illustration_file: https://github.com/RealDeco/xiaozhi-esphome/raw/main/images/${imagemodel}/${imagewidth}x${imageheight}/loading.png
-  idle_illustration_file: https://github.com/RealDeco/xiaozhi-esphome/raw/main/images/${imagemodel}/${imagewidth}x${imageheight}/idle.png
-  listening_illustration_file: https://github.com/RealDeco/xiaozhi-esphome/raw/main/images/${imagemodel}/${imagewidth}x${imageheight}/listening.png
-  thinking_illustration_file: https://github.com/RealDeco/xiaozhi-esphome/raw/main/images/${imagemodel}/${imagewidth}x${imageheight}/thinking.png
-  replying_illustration_file: https://github.com/RealDeco/xiaozhi-esphome/raw/main/images/${imagemodel}/${imagewidth}x${imageheight}/replying.png
-  error_illustration_file: https://github.com/RealDeco/xiaozhi-esphome/raw/main/images/${imagemodel}/${imagewidth}x${imageheight}/error.png
-  timer_finished_illustration_file: https://github.com/RealDeco/xiaozhi-esphome/raw/main/images/${imagemodel}/${imagewidth}x${imageheight}/timer_finished.png
-  mute_illustration_file: https://github.com/RealDeco/xiaozhi-esphome/raw/main/images/${imagemodel}/${imagewidth}x${imageheight}/mute.png
-  playing_illustration_file: https://github.com/RealDeco/xiaozhi-esphome/raw/main/images/${imagemodel}/${imagewidth}x${imageheight}/playing.png
-  clock_background_file: https://github.com/RealDeco/xiaozhi-esphome/raw/main/images/Other/${imagewidth}x${imageheight}/${clock_background_image}.png
   startup_sound_file: https://github.com/RealDeco/xiaozhi-esphome/raw/main/sounds/${startup_sound}.flac
 
-  loading_illustration_background_color: "000000"
-  idle_illustration_background_color: "000000"
-  listening_illustration_background_color: "000000"
-  thinking_illustration_background_color: "000000"
-  replying_illustration_background_color: "000000"
-  error_illustration_background_color: "000000"
+  
 
   voice_assist_idle_phase_id: "1"
   voice_assist_listening_phase_id: "2"
@@ -97,16 +80,6 @@ esphome:
   min_version: 2025.9.0
   name_add_mac_suffix: false
   on_boot:
-    - priority: 600
-      then:
-        - script.execute: draw_display
-        - delay: 30s
-        - if:
-            condition:
-              lambda: return id(init_in_progress);
-            then:
-              - lambda: id(init_in_progress) = false;
-              - script.execute: draw_display
 
 psram:
   mode: octal
@@ -138,18 +111,6 @@ captive_portal:
 http_request:
 
 online_image:
-  - id: clock_background
-    url: ${clock_background_file}
-    format: PNG
-    type: RGB565
-    resize: ${imagewidth}x${imageheight}
-    update_interval: never
-  - id: temp_fullscreen
-    url: ${clock_background_file}
-    format: PNG
-    type: RGB565
-    resize: ${imagewidth}x${imageheight}
-    update_interval: never
 
 time:
   - platform: homeassistant
@@ -157,7 +118,7 @@ time:
 
 api:
   on_client_connected:
-    - script.execute: draw_display
+    - script.execute:
     - lambda: |-
         if (!id(boot_sound_played)) {
           id(boot_sound_played) = true;
@@ -165,12 +126,12 @@ api:
             id(play_sound)->execute(true, id(ready_sound));
           }
         }
-    - script.execute: reset_screensaver
+    - script.execute:
   on_client_disconnected:
-    - script.execute: draw_display
+    - script.execute:
 
   actions:
-    - action: show_fullscreen_image
+    - action: 
       variables:
         url: string
       then:
@@ -180,26 +141,23 @@ api:
                 return id(voice_assistant_phase) == ${voice_assist_idle_phase_id}
                     || id(voice_assistant_phase) == ${voice_assist_replying_phase_id};
             then:
-              - lambda: id(showing_fullscreen_image) = true;
+              - lambda: 
               - online_image.set_url:
-                  id: temp_fullscreen
-                  url: !lambda 'return url;'
+                  id: 
+                  url:
                   update: true
               - delay: 600ms
-              - display.page.show: empty_clock
-              - component.update: main_display
-              - script.execute: reset_screensaver
-              - delay: !lambda |-
-                  int s = (int) id(api_image_duration_seconds).state;
-                  if (s <= 0) s = 30;
-                  return (uint32_t)(s * 1000);
-              - online_image.release: temp_fullscreen
-              - lambda: id(showing_fullscreen_image) = false;
-              - script.execute: draw_display
+              - display.page.show: 
+              - component.update: 
+              - script.execute: 
+              - delay: 
+              - online_image.release: 
+              - lambda: 
+              - script.execute: 
             else:
               - logger.log:
                   level: INFO
-                  format: "show_fullscreen_image ignored (phase=%d)"
+                  format: 
                   args: [ 'id(voice_assistant_phase)' ]
 
 button:
@@ -214,167 +172,10 @@ button:
       - script.execute: handle_screen_tap
 
 number:
-  - platform: template
-    id: clock_delay_seconds
-    name: "Clock Screensaver Delay"
-    unit_of_measurement: "s"
-    icon: "mdi:timer-outline"
-    entity_category: config
-    optimistic: true
-    restore_value: true
-    mode: box
-    min_value: 5
-    max_value: 600
-    step: 5
-    initial_value: 10
-
-  - platform: template
-    id: api_image_duration_seconds
-    name: "API Image Display Time"
-    unit_of_measurement: "s"
-    icon: "mdi:timer-sand"
-    entity_category: config
-    optimistic: true
-    restore_value: true
-    mode: box
-    min_value: 1
-    max_value: 600
-    step: 1
-    initial_value: 30
 
 sensor:
-  - platform: template
-    id: battery_voltage
-    name: "Battery Voltage"
-    unit_of_measurement: "V"
-    accuracy_decimals: 2
-    device_class: voltage
-    state_class: measurement
-    on_value:
-      then:
-        - sensor.template.publish:
-            id: battery_percentage
-            state: !lambda 'return x;'
-
-  - platform: template
-    id: battery_percentage
-    name: "Battery Percentage"
-    update_interval: never
-    unit_of_measurement: "%"
-    accuracy_decimals: 0
-    icon: mdi:battery-medium
-    filters:
-      - calibrate_linear:
-          method: exact
-          datapoints:
-            - 2.80 -> 0.0
-            - 3.10 -> 10.0
-            - 3.30 -> 20.0
-            - 3.45 -> 30.0
-            - 3.60 -> 40.0
-            - 3.70 -> 50.0
-            - 3.75 -> 60.0
-            - 3.80 -> 70.0
-            - 3.90 -> 80.0
-            - 4.00 -> 90.0
-            - 4.20 -> 100.0
-      - lambda: |-
-          if (x > 100) return 100;
-          if (x < 0) return 0;
-          return x;
-    on_value:
-      then:
-        - lambda: |-
-            int current = (int) x;
-            if (current == id(last_battery_percent)) return;
-            id(last_battery_percent) = current;
-        - if:
-            condition:
-              switch.is_on: show_battery_status
-            then:
-              - component.update: main_display
-
-  - platform: homeassistant
-    id: ha_weather_temperature
-    entity_id: ${weather_entity}
-    attribute: temperature
-    internal: true
-  - platform: homeassistant
-    id: ha_weather_cloud_coverage
-    entity_id: ${weather_entity}
-    attribute: cloud_coverage
-    internal: true
-  - platform: homeassistant
-    id: ha_weather_uv_index
-    entity_id: ${weather_entity}
-    attribute: uv_index
-    internal: true
-  - platform: homeassistant
-    id: ha_weather_wind_speed
-    entity_id: ${weather_entity}
-    attribute: wind_speed
-    internal: true
-  - platform: homeassistant
-    id: ha_weather_wind_gust
-    entity_id: ${weather_entity}
-    attribute: wind_gust_speed
-    internal: true
-  - platform: homeassistant
-    id: ha_weather_humidity
-    entity_id: ${weather_entity}
-    attribute: humidity
-    internal: true
-  - platform: homeassistant
-    id: ha_weather_pressure
-    entity_id: ${weather_entity}
-    attribute: pressure
-    internal: true
 
 binary_sensor:
-  - platform: esp32_touch
-    id: top_touch_pad1
-    name: "Top Touch Pad 1"
-    pin: GPIO6
-    threshold: 2000
-    filters:
-      - delayed_on: 15ms
-      - delayed_off: 60ms
-  - platform: esp32_touch
-    id: top_touch_pad2
-    name: "Top Touch Pad 2"
-    pin: GPIO7
-    threshold: 2000
-    filters:
-      - delayed_on: 15ms
-      - delayed_off: 60ms
-
-  - platform: template
-    name: "Touch Button"
-    id: touch_input
-    on_click:
-      min_length: 30ms
-      max_length: 600ms
-      then:
-        - if:
-            condition:
-              switch.is_on: timer_ringing
-            then:
-              - switch.turn_off: timer_ringing
-            else:
-              - if:
-                  condition:
-                    lambda: return id(wake_word_engine_location).state == "On device";
-                  then:
-                    - media_player.stop:
-                        id: external_media_player
-                    - if:
-                        condition:
-                          not:
-                            voice_assistant.is_running:
-                        then:
-                          - voice_assistant.start:
-                        else:
-                          - voice_assistant.stop:
 
   - platform: gpio
     pin:
@@ -411,8 +212,8 @@ binary_sensor:
       - timing:
           - ON for at least 1s
         then:
-          - switch.toggle: show_battery_status
-          - script.execute: draw_display
+          - switch.toggle: 
+          - script.execute: 
 
   - platform: template
     name: "Timer Ringing Active"
@@ -421,30 +222,6 @@ binary_sensor:
     lambda: |-
       return id(timer_ringing).state;
 
-  - platform: template
-    id: swipe_left
-    name: "Swipe Left"
-    device_class: moving
-    entity_category: diagnostic
-
-  - platform: template
-    id: swipe_right
-    name: "Swipe Right"
-    device_class: moving
-    entity_category: diagnostic
-    
-  - platform: template
-    id: swipe_up
-    name: "Swipe Up"
-    device_class: moving
-    entity_category: diagnostic
-    
-  - platform: template
-    id: swipe_down
-    name: "Swipe Down"
-    device_class: moving
-    entity_category: diagnostic
-    
   - platform: homeassistant
     id: ha_sensor1
     entity_id: ${sensor1_entity}
@@ -493,27 +270,6 @@ output:
     pin: GPIO44
     inverted: false
 
-  - platform: template
-    id: clock_color_r
-    type: float
-    write_action:
-      - lambda: |-
-          return;
-
-  - platform: template
-    id: clock_color_g
-    type: float
-    write_action:
-      - lambda: |-
-          return;
-
-  - platform: template
-    id: clock_color_b
-    type: float
-    write_action:
-      - lambda: |-
-          return;
-
 power_supply:
   - id: vcc3v3_sw
     pin:
@@ -526,23 +282,6 @@ power_supply:
     pin: GPIO48
     enable_time: 150ms
     enable_on_boot: true
-
-light:
-  - platform: monochromatic
-    id: Sled
-    name: Screen
-    icon: mdi:television
-    entity_category: config
-    output: backlight_output
-    restore_mode: ALWAYS_ON
-    default_transition_length: 250ms
-  - platform: rgb
-    id: clock_color_picker
-    name: "Clock Color"
-    entity_category: config
-    red: clock_color_r
-    green: clock_color_g
-    blue: clock_color_b
 
 micro_wake_word:
   id: mww
